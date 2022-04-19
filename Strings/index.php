@@ -6,6 +6,7 @@ $completo = $nome." ".$sobrenome;
 //$caractere = strlen($completo);
 
 //teste 1
+//teste2
 
 ?>
 
