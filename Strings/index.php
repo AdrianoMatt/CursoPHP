@@ -27,4 +27,5 @@ $completo = $nome." ".$sobrenome;
 <!?= "O meu nome tem ". $caractere ." caracteres"?>
 
 <!--comentario aleatório-->
+</body>
 </html>
