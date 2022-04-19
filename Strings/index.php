@@ -5,6 +5,8 @@ $completo = $nome." ".$sobrenome;
 //$maiuscula = strtoupper($completo);
 //$caractere = strlen($completo);
 
+//teste 1
+
 ?>
 
 <!DOCTYPE html>
