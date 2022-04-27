@@ -12,3 +12,11 @@ while ($x < 10){
     echo 'ciclo em execução <br>';
     $x++;
 }
+echo '<hr>';
+echo '<hr>';
+
+#outro exemplo
+$i  = 0;
+while ($i < 10){
+    echo $i++ . '<br>';
+}
