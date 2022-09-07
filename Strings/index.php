@@ -29,7 +29,12 @@ $completo = $nome." ".$sobrenome;
         <?= "O meu nome é ". strtoupper($nome) ." e o sobrenome é ". strtoupper($sobrenome) . " completo fica: " . strtoupper($completo) ?>
             <br>
 
-            <!?= "O meu nome tem ". $caractere ." caracteres"?>
+            <?php
+            $replace = str_replace(" ", "", $completo);
+            $totalchar = strlen($replace);
+            ?>
+            <br>
+            <?=  "O meu nome tem ". $totalchar ." caracteres"?>
 
             <!--comentario aleatório-->
     </body>
