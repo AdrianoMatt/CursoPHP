@@ -27,3 +27,6 @@ $dados = [
     20 => 2000,
     30 => 3000,
 ];
+
+# Se adicionarmos um novo elemento no final da coleção, ele vai assumir o ultimo índice +1
+$dados[] = 4000; # $dados[31];
