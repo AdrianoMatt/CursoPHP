@@ -21,5 +21,6 @@ echo $cidades['brasil'][1]; # sao paulo
 echo $cidades['esoanha'][0]; # madrid
 echo $cidades['portugal'][2]; #coimbra
 
+# Os arrays podem ter mais do que duas dimensões.
 
 ?>
